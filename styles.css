@@ -1,0 +1,209 @@
+body {
+    background-image: url(img/playa.jpg);
+    background-position: center;
+    position: relative;
+    margin: 0;
+    box-sizing: border-box;
+     line-height: 1.5;
+     
+}
+
+header {
+    padding: 10px 10px;
+    background-image: linear-gradient(to bottom, #fff6, #0003);
+
+
+}
+
+nav {
+    display:flex; align-items:center; gap:1rem;
+    padding: 5px;
+    width: 5rem;
+    text-align: right;
+    margin-left: 70%;
+}
+
+.nav ul { display:flex; list-style:none; gap:1rem; margin:0; padding:0; }
+
+@media (max-width: 768px) {
+  .center-protip {
+    grid-template-columns: 1fr;
+  }
+
+  .card1,
+  .card2,
+  .card3,
+  .card4,
+  .card5,
+  .card6 {
+    grid-area: auto;
+  }
+}
+
+.up_text {
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff77;
+    margin: 1rem 0;
+    color: rgb(87, 85, 56);
+}
+
+.product_destacados {
+    padding-bottom: 0;
+    text-align: center;
+    width: 30rem;
+    margin-left: 2rem;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.center{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: "Great Vibes";
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 10px;
+    background-image: linear-gradient(to top, #ffffffaa,transparent);
+}
+
+.center img { 
+    height: auto;
+     margin: auto; 
+     width: 30rem;
+     gap: 10px;
+     justify-content: center;
+    
+
+
+ }   
+.card {
+    border: solid 1px black;
+
+    height: auto;
+    width: 20rem;
+    background-color:#f0ffffaa;
+    border-radius: 1rem;
+    align-items: center;
+    box-shadow: 0 10px 30px 1px;
+    justify-items: center;
+    margin: 5rem;
+    text-align:center;
+}
+
+
+.card img{
+    height: auto;
+    width:  10rem;
+    justify-content: center;
+    
+    
+}
+
+
+
+.center-protip{
+    
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-content: space-between;
+    
+    
+
+
+}
+
+.card1{
+    grid-column: 1/4;
+    grid-row:1/1 ;
+}
+.card2{
+    grid-column:2/4;
+    grid-row: 2/2;
+}
+.card3{
+    grid-column: 3/4;
+    grid-row: 1/1;
+}
+.card4{
+grid-column: 3/4;
+grid-row: 3/3;
+}
+.card5{
+    grid-column: 2/3;
+    grid-row: 4/4;
+}
+.card6{
+    grid-column: 1/2;
+    grid-row: 3/3;
+}
+
+
+
+.button, 
+.decoration-contact,
+.product_destacados {
+
+    background-color: #91918440;
+
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 1px 3px 10px 0;
+    text-decoration: none;
+    color: rgb(48, 48, 42);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    margin: 10px auto;
+    text-align: center;
+    width: 200px;
+    letter-spacing: normal;
+
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 100px;
+}
+.decoration-contact,
+.product_destacados{
+    width: 400px;
+}
+
+footer{
+    margin-top: 1rem;
+    padding: 10px 0 0 10px;
+    background-color: #faebd777;
+    text-align: center;
+    letter-spacing: 5px;
+    display: flex;
+    flex-direction: column;
+    /* position: fixed; */
+    
+}
+
+
+#ratita {
+  display:flex;
+   height: 3rem;
+    width: auto;
+    position:fixed;
+    right: 10px;
+    bottom: 10px;
+    
+}
