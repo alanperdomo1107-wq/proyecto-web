@@ -27,6 +27,7 @@ header{
 .nav{
     display: flex;
     flex-direction: row;
+    
      
     background-color: #6e6a5aa0;
     backdrop-filter: blur(20px); 
@@ -45,6 +46,7 @@ header{
 .nav h3{
     font-size:2em ;
     font-style: normal;
+    font-weight: bold;
 }
 
 
