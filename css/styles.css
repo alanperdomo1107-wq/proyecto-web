@@ -10,7 +10,7 @@ body {
 }
 
 /* SECTION NAV */
-header{
+/* header{
     padding: 1rem;
     justify-items:center;
     margin-bottom: 2rem;
@@ -22,9 +22,9 @@ header{
     top: 0;
     width: 100%;
     height:auto;
-}
+} */
 
-.nav{
+/* .nav{
     display: flex;
     flex-direction: row;
     
@@ -47,7 +47,7 @@ header{
     font-size:2em ;
     font-style: normal;
     font-weight: bold;
-}
+} */
 
 
 
@@ -62,9 +62,9 @@ header{
     border: 1px solid #7b64318d;
     width:  10em;
     border-radius: 10px;
-    color: rgb(114, 109, 98);
+    color: rgb(169, 168, 166);
     font-weight: 100;
-    margin-bottom: 1rem;
+    margin:10px 1rem;
 }
 
 .texto-centro h4{
