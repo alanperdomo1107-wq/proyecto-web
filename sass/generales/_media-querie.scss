@@ -1,0 +1,24 @@
+@media (max-width: 600px) {
+    body h2 {
+        margin: 10px;
+
+
+    }
+
+    .cards {
+        margin: 20px auto;
+
+        border-top: solid 1px #4b4b4b;
+        padding: 15px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .imagenes-centro {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+}

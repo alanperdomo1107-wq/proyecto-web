@@ -1,0 +1,44 @@
+.fondo-cards {
+    width: 80%;
+    margin: auto;
+
+    .cards {
+        margin: 20px auto;
+
+        border-top: solid 1px #4b4b4b;
+        padding: 15px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-content: space-around;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            padding: 5px;
+            color: #000000;
+
+            border: solid 1px rgb(235, 231, 231);
+            text-align: start;
+            background-color: rgb(255, 255, 255);
+
+            .imagen-centro {
+
+                width: 100%;
+                height: auto;
+            }
+
+
+        }
+
+        .card:hover {
+
+            
+            transform: scaleY(1.08);
+            transition: 1s;
+            transform-origin: bottom;
+            border: solid 1px black;
+
+        }
+    }
+}
