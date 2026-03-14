@@ -1,24 +1,15 @@
-@media (max-width: 600px) {
-    body h2 {
-        margin: 10px;
+@media (max-width:500px){
 
+body{
+margin:10px;
+}
 
-    }
+.fondo-cards .cards{
+grid-template-columns:1fr;
+}
 
-    .cards {
-        margin: 20px auto;
+.centro .fila-imagenes .imagenes-centro{
+grid-template-columns:1fr;
+}
 
-        border-top: solid 1px #4b4b4b;
-        padding: 15px;
-        width: 100%;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-
-    .imagenes-centro {
-        display: grid;
-        grid-template-columns: 1fr;
-        margin: auto;
-    }
 }

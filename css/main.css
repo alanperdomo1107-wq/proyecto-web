@@ -51,7 +51,7 @@ body {
 .centro .texto-centro {
   justify-items: center;
 }
-.centro .texto-centro .texto-centro h5 {
+.centro .texto-centro h5 {
   border: 1px solid rgba(123, 100, 49, 0.5529411765);
   width: 10em;
   border-radius: 10px;
@@ -59,7 +59,7 @@ body {
   font-weight: 100;
   margin: 10px 1rem;
 }
-.centro .texto-centro .texto-centro h4 {
+.centro .texto-centro h4 {
   color: rgba(105, 105, 105, 0.6705882353);
 }
 .centro .fila-imagenes img {
@@ -191,22 +191,15 @@ body {
   min-height: 60px;
 }
 
-@media (max-width: 600px) {
-  body h2 {
+@media (max-width: 500px) {
+  body {
     margin: 10px;
   }
-  .cards {
-    margin: 20px auto;
-    border-top: solid 1px #4b4b4b;
-    padding: 15px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .imagenes-centro {
-    display: grid;
+  .fondo-cards .cards {
     grid-template-columns: 1fr;
-    margin: auto;
+  }
+  .centro .fila-imagenes .imagenes-centro {
+    grid-template-columns: 1fr;
   }
 }
 
