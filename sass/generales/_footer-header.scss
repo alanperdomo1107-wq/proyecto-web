@@ -1,9 +1,27 @@
+@use "../generales/variables" as*;
+
+
+.header{
+
+  .mi-navbar{
+    background-color: $marroncito;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    .mi-boton
+    {
+        border: solid 1px #c8c8c8;
+        color: #c8c8c8;
+    }
+  }
+}
+
+
 .footer {
     bottom: 1px;
     /* background-color: #181a1e; */
-    background-image: linear-gradient(to right, #181a1e 50%, rgb(180, 162, 140));
+    background-image: linear-gradient(to right, #181a1e 50%, $marroncito);
     display: flex;
     flex-direction: row;
+    
 
     img {
         height: auto;

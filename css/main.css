@@ -4,14 +4,34 @@
   box-sizing: border-box;
 }
 
-body {
+html {
+  height: 100%;
+}
+html body {
   background-image: linear-gradient(to top, white 75%, rgb(49, 49, 49));
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+html body main {
+  flex: 1;
+}
+
+.header .mi-navbar {
+  background-color: #9e8e81;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.header .mi-navbar .mi-boton {
+  border: solid 1px #c8c8c8;
+  color: #c8c8c8;
 }
 
 .footer {
   bottom: 1px;
   /* background-color: #181a1e; */
-  background-image: linear-gradient(to right, #181a1e 50%, rgb(180, 162, 140));
+  background-image: linear-gradient(to right, #181a1e 50%, #9e8e81);
   display: flex;
   flex-direction: row;
 }
@@ -52,7 +72,7 @@ body {
 .centro .texto-centro {
   justify-items: center;
 }
-.centro .texto-centro h5 {
+.centro .texto-centro h2 {
   border: 1px solid rgba(123, 100, 49, 0.5529411765);
   width: 10em;
   border-radius: 10px;
@@ -60,7 +80,7 @@ body {
   font-weight: 100;
   margin: 10px 1rem;
 }
-.centro .texto-centro h4 {
+.centro .texto-centro h3 {
   color: rgba(105, 105, 105, 0.6705882353);
 }
 .centro .fila-imagenes img {
@@ -72,6 +92,7 @@ body {
 .centro .fila-imagenes .imagenes-centro {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  transition: 1s;
 }
 .centro .fila-imagenes .img3:hover {
   animation: heartbeat 1.5s ease-in-out infinite both;
@@ -288,6 +309,24 @@ body {
   min-height: 60px;
 }
 
+@media (max-width: 800px) {
+  body {
+    margin: 10px;
+  }
+  .formulario2 {
+    width: 80%;
+  }
+  .footer img {
+    display: none;
+  }
+  .fondo-cards .cards {
+    grid-template-columns: 2fr;
+  }
+  .centro .fila-imagenes .imagenes-centro {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 @media (max-width: 500px) {
   body {
     margin: 10px;

@@ -1,4 +1,6 @@
 
+@use "../generales/variables" as*;
+
 
  
 .centro {
@@ -12,7 +14,7 @@
 
         justify-items: center;
 
-         h5 {
+         h2 {
             border: 1px solid #7b64318d;
             width: 10em;
             border-radius: 10px;
@@ -21,7 +23,7 @@
             margin: 10px 1rem;
         }
 
-         h4 {
+         h3 {
             color: #696969ab;
         }
 
@@ -40,6 +42,7 @@
         .imagenes-centro {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
+            transition: 1s;
 
             
         }
