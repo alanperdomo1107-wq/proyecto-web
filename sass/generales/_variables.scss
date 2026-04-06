@@ -1,3 +1,17 @@
 //variables
 
-$marroncito: #9e8e81
+$marroncito: #9e8e81;
+
+
+
+@mixin fuente {
+  font-family:"Bebas Neue", sans-serif;;
+  font-size: 13px;
+  letter-spacing: 5px;
+}
+
+@mixin estructura {
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}

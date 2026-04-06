@@ -16,6 +16,8 @@
 
 
 .footer {
+    @include fuente;
+    font-size: 20px;
     bottom: 1px;
     /* background-color: #181a1e; */
     background-image: linear-gradient(to right, #181a1e 50%, $marroncito);

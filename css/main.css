@@ -29,6 +29,10 @@ html body main {
 }
 
 .footer {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 13px;
+  letter-spacing: 5px;
+  font-size: 20px;
   bottom: 1px;
   /* background-color: #181a1e; */
   background-image: linear-gradient(to right, #181a1e 50%, #9e8e81);
@@ -66,10 +70,13 @@ html body main {
 .centro {
   display: flex;
   flex-direction: column;
-  text-align: center;
+  align-items: center;
   gap: 10px;
 }
 .centro .texto-centro {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 13px;
+  letter-spacing: 5px;
   justify-items: center;
 }
 .centro .texto-centro h2 {
@@ -271,16 +278,21 @@ html body main {
   flex-direction: column;
   padding: 5px;
   color: #000000;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 13px;
+  letter-spacing: 5px;
   border: solid 1px rgb(235, 231, 231);
   text-align: start;
   background-color: rgb(255, 255, 255);
+  z-index: 1;
 }
 .fondo-cards .cards .card .imagen-centro {
   width: 100%;
   height: auto;
 }
 .fondo-cards .cards .card:hover {
-  transform: scaleY(1.08);
+  z-index: 10;
+  transform: scale(1.08);
   transition: 1s;
   transform-origin: bottom;
   border: solid 1px black;
@@ -292,6 +304,9 @@ html body main {
   width: 50%;
   height: 60vh;
   border-radius: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 13px;
+  letter-spacing: 5px;
   padding: 10px;
   margin: 40px auto;
 }

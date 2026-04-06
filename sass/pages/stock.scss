@@ -1,3 +1,5 @@
+@use "../generales/variables" as*;
+
 .fondo-cards {
     width: 80%;
     margin: auto;
@@ -17,11 +19,13 @@
             flex-direction: column;
             padding: 5px;
             color: #000000;
+            @include fuente;
+
 
             border: solid 1px rgb(235, 231, 231);
             text-align: start;
             background-color: rgb(255, 255, 255);
-
+            z-index: 1;
             .imagen-centro {
 
                 width: 100%;
@@ -33,9 +37,10 @@
 
         .card:hover {
 
-            
-            transform: scaleY(1.08);
+            z-index: 10;
+            transform: scale(1.08);
             transition: 1s;
+            
             transform-origin: bottom;
             border: solid 1px black;
 

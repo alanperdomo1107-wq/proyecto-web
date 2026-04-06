@@ -3,14 +3,13 @@
 
 
 .centro {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+  @include estructura;
 
   gap: 10px;
 
   .texto-centro {
-
+    @include fuente;
+    
     justify-items: center;
 
     h2 {
