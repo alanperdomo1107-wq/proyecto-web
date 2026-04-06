@@ -31,6 +31,18 @@
                 width: 100%;
                 height: auto;
             }
+            .mi-boton {
+                border: solid 1px #cdc7c7;
+                color: #976565;
+
+                &:hover {
+                border: solid 2px #1b1a1a;
+                
+                color: #b21919;
+
+            }
+            }
+            
 
 
         }
@@ -38,12 +50,18 @@
         .card:hover {
 
             z-index: 10;
-            transform: scale(1.08);
-            transition: 1s;
+            transform: scale(1.02);
+            transition: 0.2s;
             
             transform-origin: bottom;
             border: solid 1px black;
 
         }
     }
+}
+// SECTION IMG CARRITO
+
+.carrito{
+    @include img-fija;
+    animation: none;
 }

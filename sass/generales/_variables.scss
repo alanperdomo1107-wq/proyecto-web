@@ -15,3 +15,14 @@ $marroncito: #9e8e81;
         flex-direction: column;
         align-items: center;
 }
+
+@mixin img-fija{
+  position: fixed;
+
+  width: 3rem;
+  height: auto;
+
+  bottom: 2rem;
+  right: 2rem;
+  animation: flicker-in-1 2s linear both
+}

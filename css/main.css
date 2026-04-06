@@ -79,7 +79,8 @@ html body main {
   letter-spacing: 5px;
   justify-items: center;
 }
-.centro .texto-centro h2 {
+.centro .texto-centro h1 {
+  text-align: center;
   border: 1px solid rgba(123, 100, 49, 0.5529411765);
   width: 10em;
   border-radius: 10px;
@@ -87,7 +88,7 @@ html body main {
   font-weight: 100;
   margin: 10px 1rem;
 }
-.centro .texto-centro h3 {
+.centro .texto-centro h2 {
   color: rgba(105, 105, 105, 0.6705882353);
 }
 .centro .fila-imagenes img {
@@ -290,12 +291,30 @@ html body main {
   width: 100%;
   height: auto;
 }
+.fondo-cards .cards .card .mi-boton {
+  border: solid 1px #cdc7c7;
+  color: #976565;
+}
+.fondo-cards .cards .card .mi-boton:hover {
+  border: solid 2px #1b1a1a;
+  color: #b21919;
+}
 .fondo-cards .cards .card:hover {
   z-index: 10;
-  transform: scale(1.08);
-  transition: 1s;
+  transform: scale(1.02);
+  transition: 0.2s;
   transform-origin: bottom;
   border: solid 1px black;
+}
+
+.carrito {
+  position: fixed;
+  width: 3rem;
+  height: auto;
+  bottom: 2rem;
+  right: 2rem;
+  animation: flicker-in-1 2s linear both;
+  animation: none;
 }
 
 .formulario2 {
