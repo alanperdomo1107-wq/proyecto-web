@@ -375,7 +375,8 @@ html body main {
 
 @media (max-width: 800px) {
   body {
-    margin: 10px;
+    margin: 10px; 
+    ;
   }
   .formulario2 {
     width: 80%;
